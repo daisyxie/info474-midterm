@@ -1,0 +1,54 @@
+h3 {
+    color: white;
+    background-color: #6aade4;
+    font-size: 18px;
+    padding: 10px;
+    width: 50%;
+    font-style: italic;
+  }
+
+body {
+  font-family: Tahoma;
+  background-color: rgb(247, 245, 245);
+}
+#filter {
+  width: 500px;
+  text-align: right;
+}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.tooltipheader {
+  color: red;
+  font-size: 18px;
+  font-family: Tahoma;
+  font-weight: bold;
+}
+
+.tooltipData {
+    color: #6aade4;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    font: 12px sans-serif;
+    background: white;
+    pointer-events: none;
+}
